@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "804972058303",
+    "firebase_url": "https://champ-5145f.firebaseio.com",
+    "project_id": "champ-5145f",
+    "storage_bucket": "champ-5145f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804972058303:android:563831b7c75b0e74",
+        "android_client_info": {
+          "package_name": "com.championnet.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804972058303-ep3gsb02jetkkdddvlvmrh128vhb9bdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkFYiWfnI0_se0N2QtKoD3NIkLzWzSiWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804972058303:android:80fc3f0b46bc3c31",
+        "android_client_info": {
+          "package_name": "ru.championnet.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804972058303-ep3gsb02jetkkdddvlvmrh128vhb9bdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkFYiWfnI0_se0N2QtKoD3NIkLzWzSiWM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

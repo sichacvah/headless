@@ -1,0 +1,9 @@
+{
+      "to": "/topics/test",
+      "data": {
+           "my_custom_key" : "my_custom_value",
+           "other_key" : true
+                             
+      }
+
+}
