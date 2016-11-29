@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { View, StatusBar, ToastAndroid } from 'react-native'
+import { View, StatusBar, ToastAndroid, AppState } from 'react-native'
 import NavigationRouter from '../Navigation/NavigationRouter'
 import { connect } from 'react-redux'
 import StartupActions from '../Redux/StartupRedux'
@@ -9,6 +9,7 @@ import StartupActions from '../Redux/StartupRedux'
 import NotificationsActions from '../Redux/NotificationsRedux'
 import ReduxPersist from '../Config/ReduxPersist'
 import FCM from 'react-native-fcm'
+import Headless from 'headless-task'
 // Styles
 import styles from './Styles/RootContainerStyle'
 
@@ -28,6 +29,13 @@ class RootContainer extends Component {
       this.props.addNotification(n)
       console.log(12222)
     })
+    AppState.addEventListener('change', this._handleAppStateChange);
+  }
+
+  _handleAppStateChange(state) {
+    if (state !== 'active') {
+      Headless.runTask('SomeTask', { someKey: 10 }, 0, false);
+    }
   }
 
   componentWillUnmount() {

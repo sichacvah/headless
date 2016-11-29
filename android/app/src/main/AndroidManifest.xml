@@ -24,6 +24,7 @@
         android:value="AIzaSyANvcURJh4aSMxSy-N4QTGX3yLkDH2qCno"/>
 
       <service android:name="ru.championnet.app.NotificationControlService" />
+      <service android:name="io.sichacvah.react.headless.HeadlessService" />
 
       <service android:name=".MessagingService">
         <intent-filter>

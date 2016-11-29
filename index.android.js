@@ -8,4 +8,5 @@ AppRegistry.registerHeadlessTask('MessagingService', () => (async (args) => {
   console.log("AWDAWDAWDADAWDWDAD")
   console.log(args)
 }))
+
 AppRegistry.registerComponent('Champion', () => App)

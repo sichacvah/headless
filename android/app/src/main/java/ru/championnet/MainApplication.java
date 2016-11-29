@@ -17,6 +17,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.aakashns.reactnativedialogs.ReactNativeDialogsPackage;
 import com.facebook.soloader.SoLoader;
+import io.sichacvah.react.headless.HeadlessPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -39,7 +40,8 @@ public class MainApplication extends Application implements ReactApplication {
             new FIRMessagingPackage(),
             new RNDeviceInfo(),
             new ReactNativeConfigPackage(),
-            new ReactNativeDialogsPackage()
+            new ReactNativeDialogsPackage(),
+            new HeadlessPackage()
       );
     }
   };

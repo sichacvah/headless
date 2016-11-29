@@ -17,7 +17,6 @@ public class NotificationReciever extends BroadcastReceiver {
 
   @Override
   public void onReceive(Context context, Intent intent) {
-    Log.i(LOG_TAG, "yipikaye mutherf**r");
     Intent service = new Intent(context.getApplicationContext(), NotificationControlService.class);
     RemoteMessage message = intent.getParcelableExtra("data");
     service.putExtra("data", message.getData().toString());
